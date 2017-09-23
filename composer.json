@@ -1,0 +1,21 @@
+{
+    "name": "br2c/tele2lt-sms",
+    "description": "Send SMS using mano.tele2.lt website's account",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Brastavičius",
+            "email": "github@2c.lt",
+            "homepage": "2c.lt"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tele2LtSms\\": "src/"
+        }
+    }
+}
