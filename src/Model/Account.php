@@ -1,6 +1,6 @@
 <?php
 
-namespace Tele2LtSms\Model;
+namespace Tele2LtSmsApi\Model;
 
 class Account
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Tele2LtSms\Client;
+namespace Tele2LtSmsApi\Client;
 
-use Tele2LtSms\Exception\AdapterException;
-use Tele2LtSms\Model\Cookie;
-use Tele2LtSms\Model\Header;
-use Tele2LtSms\Model\HttpResponse;
+use Tele2LtSmsApi\Exception\AdapterException;
+use Tele2LtSmsApi\Model\Cookie;
+use Tele2LtSmsApi\Model\Header;
+use Tele2LtSmsApi\Model\HttpResponse;
 
 class Adapter
 {
@@ -15,7 +15,7 @@ class Adapter
         'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1',
         'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
         'Accept-Language: lt-LT,lt;q=0.5',
-        'X-User-Agent: Tele2LtSms Library',
+        'X-User-Agent: Tele2LtSmsApi Library',
     ];
 
     /**

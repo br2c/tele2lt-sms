@@ -1,11 +1,11 @@
 <?php
 
-namespace Tele2LtSms\Client;
+namespace Tele2LtSmsApi\Client;
 
-use Tele2LtSms\Exception\RemoteErrorException;
-use Tele2LtSms\Exception\BadResponseException;
-use Tele2LtSms\Model\HttpResponse;
-use Tele2LtSms\Model\Session;
+use Tele2LtSmsApi\Exception\RemoteErrorException;
+use Tele2LtSmsApi\Exception\BadResponseException;
+use Tele2LtSmsApi\Model\HttpResponse;
+use Tele2LtSmsApi\Model\Session;
 
 class Login extends ClientAbstract
 {

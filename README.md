@@ -1,7 +1,7 @@
 # tele2lt-sms-api
 
 Mobiliojo ryšio operatorius TELE2 savo klientams suteikia galimybę siųsti SMS žinutes iš savitarnos svetainės
-[mano.tele2.lt](https://mano.tele2.lt). Pasinaudojus svetainėje esančia forma galima siųsti ribotą skaičių nemokamų SMS žinučių. Išnaudojus nemokamų SMS žinučių limitą kitos žinutės bus apmokestinamos ir įtrauktos į bendrą mėnesinę sąskaitą už mobiliojo ryšio paslaugas. Daugiau informacijos rasite prisijungę prie savitarnos svetainės.
+[mano.tele2.lt](https://mano.tele2.lt). Pasinaudojus svetainėje esančia forma galima nemokamai išsiųsti ribotą skaičių SMS žinučių per mėnesį. Išnaudojus nemokamų SMS žinučių limitą, kitos žinutės bus apmokestinamos ir įtrauktos į bendrą mėnesinę sąskaitą už mobiliojo ryšio paslaugas. Nemokamų SMS žinučių skaičių, vienos žinutės kainą ir kitą informaciją rasite prisijungę prie savitarnos svetainės.
 
 Ši PHP biblioteka (SMS API) skirta siųsti SMS žinutes per [mano.tele2.lt](https://mano.tele2.lt).
 
@@ -23,9 +23,9 @@ failą pridedant tokią konfigūraciją:
 
 Pavyzdys, skirtas išsiųsti SMS žinutę ir atspausdinti sąskaitos informaciją:
 ```
-use Tele2LtSms\Client\Adapter;
-use Tele2LtSms\Client\Login;
-use Tele2LtSms\Client\Action;
+use Tele2LtSmsApi\Client\Adapter;
+use Tele2LtSmsApi\Client\Login;
+use Tele2LtSmsApi\Client\Action;
 
 // Telefono numeris, naudojamas prisijungimui prie mano.tele2.lt; 6XXYYYYY formatas
 $username = '';

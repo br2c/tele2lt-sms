@@ -1,6 +1,6 @@
 <?php
 
-namespace Tele2LtSms\Exception;
+namespace Tele2LtSmsApi\Exception;
 
 class RemoteErrorException extends LibraryException
 {
